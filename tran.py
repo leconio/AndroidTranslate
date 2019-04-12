@@ -12,8 +12,11 @@ import xml.etree.ElementTree as eTree
 
 DEBUG = False
 
-TO_ANDROID_LANGUAGE = 'your-targe-language'
+# 需要把翻译完成的语言放到哪个文件夹下，国际画内容
+TO_ANDROID_LANGUAGE = 'values-zh-rTW'
+# 搜索个目录，填写项目根目录
 PROJECT_ROOT_PATH = 'your-project-path'
+# 以下为从百度翻译申请到信息
 APPID = "your-appid"
 APP_SECRET = "you-appsecret"
 FROM_BAIDU_LANGUAGE = 'zh'
